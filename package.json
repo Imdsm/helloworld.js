@@ -1,0 +1,19 @@
+{
+  "name": "helloworld.js",
+  "version": "0.0.1",
+  "description": "A Hello World NodeJS application for testing Deis.",
+  "main": "src/helloworld.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Imdsm/helloworld.js.git"
+  },
+  "author": "Adam K Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Imdsm/helloworld.js/issues"
+  },
+  "homepage": "https://github.com/Imdsm/helloworld.js",
+  "dependencies": {
+    "funkyname.js": "0.0.1"
+  }
+}
