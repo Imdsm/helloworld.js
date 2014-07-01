@@ -2,9 +2,7 @@ var http = require('http'),
     funkyname = require('funkyname.js');
 
 var name = funkyname.getFunkyName();
-var port = 8000;
-
-// test
+var port = 80;
 
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
