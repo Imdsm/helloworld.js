@@ -4,6 +4,8 @@ var http = require('http'),
 var name = funkyname.getFunkyName();
 var port = 8000;
 
+// test
+
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end('This instance is called ' + name + '\n');
