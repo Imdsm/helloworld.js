@@ -2,6 +2,7 @@ var http = require('http'),
     funkyname = require('funkyname.js');
 
 var name = funkyname.getFunkyName();
+
 var port = process.env.PORT || 8000;
 
 http.createServer(function (req, res) {
